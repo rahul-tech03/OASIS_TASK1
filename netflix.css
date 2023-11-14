@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: grey;
+}
+
+.section1{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("netflix_backgroumd.jpg");
+    background-size: cover;
+    height: 1308px;
+    width: 100%;
+}
+
+.logo{
+    display: flex;
+    margin-left: 120px;
+    width: 400px;
+    height: 250px;
+    align-items: center;
+    cursor: pointer;
+}
+.first{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.buttons{
+    display: flex;
+    width: 250px;
+    height: 100px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-right: 650px;
+
+}
+.button1{
+    background-color: transparent;
+    color: white;
+    border: 1px solid gainsboro;
+    border-radius: 4px;
+    width: 400px;
+    height: 70px;
+    font-size: 16px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.button2{
+    background-color: red;
+    color: white;
+    border: 1px solid gainsboro;
+    border-radius: 4px;
+    margin-left: 10px;
+    width: 400px;
+    height: 70px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.down{
+    height:10px ;
+    width: 10px;
+}
+.content{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin-top: 100px;
+}
+
+.content h1{
+    font-size: 50px;
+    line-height: 70px;
+    font-weight: 600;
+    max-width: 650px;
+
+}
+.content h2{
+    font-weight:400;
+    margin-bottom: 20px;
+}
+
+.content p{
+    font-size: 20px;
+    font-weight:300;
+    margin-bottom: 20px;
+    line-height: 20px
+}
